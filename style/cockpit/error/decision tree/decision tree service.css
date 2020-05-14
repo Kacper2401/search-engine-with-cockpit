@@ -1,0 +1,17 @@
+main {
+    padding-top: 7em;
+    font-size: 1.3vw;
+	text-align: center;
+}
+
+button {
+	margin-right: 20px;
+}
+
+form {
+	display: inline-block;
+}
+
+.DecisionTreeData {
+	padding-left: 1vw;
+}

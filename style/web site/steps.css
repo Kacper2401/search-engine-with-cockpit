@@ -1,0 +1,53 @@
+main {
+	padding-top: 5em;
+}
+
+#errorName {
+	display: block;
+	margin-right: 20%;
+	margin-left: 20%;
+	text-align: center;
+	font-size: 1vw;
+}
+
+#stepList {
+	width: 5%;
+	display: inline-block;
+	float: right;
+	margin-right: 4vw;
+	margin-top: -2vw;
+	margin-bottom: 0.8vw;
+	padding-right: 0.2vw;
+	text-align: center;
+	font-size: 1.2vw; 
+}
+
+#step {
+	display: inline-block;
+	width: 38%;
+	height: 100%;
+	text-align: left;
+	padding-bottom: 1vw;
+	float: left;
+	font-size: 1.3vw;
+}
+
+#step img, #decisionTree img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#decisionTree {
+	display: inline-block;
+	width: 45%;
+	height: 1.7vw;
+	float: left;
+}
+
+#stepList ul {
+	list-style-type: none;
+	margin-left: -1.2vw;
+	line-height: 140%;
+}

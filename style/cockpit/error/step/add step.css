@@ -1,0 +1,18 @@
+main {
+    padding-top: 6em;
+    font-size: 1.3vw;
+	text-align: center;
+}
+
+form {
+	display: inline-block;
+}
+
+#stepDescription, #nextStepQuestion, #nextStepOption, #nextStepPossibleNumber, #stepDescription {
+	display: inline-block;
+	padding-left: 0.6vw;
+}
+
+#stepNumber {
+	padding-bottom: 2.2vw;
+}

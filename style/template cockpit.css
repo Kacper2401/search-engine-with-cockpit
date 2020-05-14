@@ -1,0 +1,160 @@
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #FFF;
+	z-index: 999;
+	font-size: 0.8vw;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: left;
+	background-color: #FFF;
+	z-index: 999;
+	font-size: 0.5vw;
+}
+
+#logo {
+	display: inline-block;
+}
+
+#logo a img{
+	max-height: 2.5vw;
+	max-width: 15.5vw;
+}
+
+hr {
+	color: #fd3200;
+}
+
+footer hr {
+	margin-top: 0;
+}
+
+header hr {
+	margin-bottom: 0;
+}
+
+a {
+	font-size: 1.4vw;
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fd3200;
+	transition: all 0.6s;
+}
+
+#sideMenu a{
+	font-size: 1.3vw;
+}
+
+#warming {
+	color: red;
+}
+
+#sideMenu a {
+	position: fixed;
+	float: right;
+	right: 0;
+	top: 0;
+	margin-top: 100px;
+	background-color: #fd3200;
+	color: #FFF;
+	z-index: 999;
+	padding-left: 1vw;
+	padding-right: 0.8vw;
+	text-align: center;
+}
+
+#sideMenu a:hover {
+	color: #000;
+	z-index: 1;
+}
+
+#addError a{
+	margin-top: 5vw;
+	padding-right: 9.53vw;
+}
+
+#addCockpit a {
+	margin-top: 8vw;
+	padding-right: 8.23vw;
+}
+
+#chooseError a {
+	margin-top: 11vw;
+	padding-right: 7.87vw;
+}
+
+#deleteCockpit a {
+	margin-top: 14vw;
+	padding-right: 7.1vw;
+}
+
+#editCockpit a {
+	margin-top: 17vw;
+	padding-right: 3.4vw;
+}
+
+#addMaterial a {
+	margin-top: 20vw;
+	padding-right: 2.3vw;
+}
+
+#editMaterial a {
+	margin-top: 23vw;
+	padding-right: 2.35vw;
+}
+
+#deleteMaterial a {
+	margin-top: 26vw;
+	padding-right: 1.13vw;
+}
+
+.button {
+	position: relative;
+	background-color: #fd3200;
+	border: none;
+	font-size: 1.32vw;
+	color: #FFF;
+	width: 9.5vw;
+	text-align: center;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 1.4vw;
+}
+
+.button:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s;
+}
+
+.button:active:after {
+	opacity: 0.01vw;
+	transition: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.button:hover {
+	color: #000;
+}

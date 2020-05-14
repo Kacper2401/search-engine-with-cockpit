@@ -1,0 +1,31 @@
+main {
+    padding-top: 3em;
+    font-size: 1.3vw;
+	text-align: center;
+}
+
+main input {
+    width: 50%
+}
+
+#add {
+	margin-top: 15%;
+}
+
+#errorName {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	width: 49%;
+}
+
+#cockpitName {
+	display: inline-block;
+	float: right;
+	text-align: left;
+	width: 49%;
+}
+
+select {
+	width: 24vw;
+}

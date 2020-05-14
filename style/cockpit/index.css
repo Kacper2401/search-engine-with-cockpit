@@ -1,0 +1,26 @@
+main {
+    padding-top: 12em;
+    font-size: 1.2vw;
+	text-align: center;
+}
+
+#login {
+	display: inline-block;
+	width: 49%;
+	text-align: right;
+}
+
+#password {
+	display: inline-block;
+	width: 49%;
+	text-align: left;
+}
+
+.text {
+	display: inline-block;
+	padding-right: 14vw;
+}
+
+main input {
+	width: 34%;
+}

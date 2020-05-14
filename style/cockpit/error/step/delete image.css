@@ -1,0 +1,22 @@
+main {
+    padding-top: 3em;
+    font-size: 1.6vw;
+	text-align: center;
+}
+
+#add {
+	margin-top: 15%;
+}
+
+form {
+	display: inline-block;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+#image {
+	text-align: left;
+	 font-size: 1.5vw;
+}

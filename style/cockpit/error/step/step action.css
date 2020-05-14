@@ -1,0 +1,30 @@
+main {
+    padding-top: 2em;
+    font-size: 1.3vw;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 140%;
+}
+
+.button {
+	width: 5.5vw;
+	height: 2.6vw;
+	font-size: 1vw;
+	padding-top: 0.8vw;
+}
+
+form {
+	display: inline-block;
+}
+
+#back a{
+	margin-top: 9.3vw;
+}
+
+#addStep a{
+	padding-right: 6.13vw;
+	margin-top: 12vw;
+}

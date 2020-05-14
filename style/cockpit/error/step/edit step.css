@@ -1,0 +1,15 @@
+main {
+    padding-top: 6em;
+    font-size: 1.3vw;
+	text-align: center;
+}
+
+#stepDescription, #nextStepQuestion, #nextStepOption, #nextStepPossibleNumber {
+	display: inline-block;
+}
+
+#addStep a {
+	padding-right: 6vw;
+	margin-top: 9vw;
+	text-align: left;
+}

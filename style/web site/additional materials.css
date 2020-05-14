@@ -1,0 +1,27 @@
+main {
+    padding-top: 3em;
+    font-size: 1.6vw;
+}
+
+.mainList {
+	text-decoration: underline;
+}
+
+li img {
+    width: 1.6vw;
+    height: 1.6vw;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#file li a:hover {
+	color: #fd3200;
+}
+
+
+#file li img {
+	margin-right: 1vw;
+}
+

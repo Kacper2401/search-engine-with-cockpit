@@ -1,0 +1,115 @@
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	background-color: #FFF;
+	z-index: 999;
+	font-size: 0.8vw;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	text-align: left;
+	background-color: #FFF;
+	z-index: 999;
+	font-size: 0.5vw;
+}
+
+#logo {
+	display: inline-block;
+}
+
+#logo a img{
+	max-height: 2.5vw;
+	max-width: 15.5vw;
+}
+
+#menu {
+	display: inline-block;
+	width: 49%;
+	height: 1.4vw;
+	float: right;
+	text-align: right;
+	padding-top: 0.35vw;
+}
+
+#menu td {
+	padding-left: 1.2vw;
+	font-size: 1vw;
+}
+
+hr {
+	color: #fd3200;
+}
+
+footer hr {
+	margin-top: 0;
+}
+
+header hr {
+	margin-bottom: 0;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#manual {
+	border-right: 0.15vw solid #fd3200;
+	padding-right: 1.4vw;
+}
+
+a:hover {
+	color: #fd3200;
+	transition: all 0.6s;
+}
+
+#warming {
+	color: red;
+}
+
+.button {
+	position: relative;
+	background-color: #fd3200;
+	border: none;
+	font-size: 1.4vw;
+	color: #FFF;
+	width: 9.5vw;
+	text-align: center;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	text-decoration: none;
+	overflow: hidden;
+	cursor: pointer;
+	padding: 1.4vw;
+}
+
+.button:after {
+	content: "";
+	background: #f1f1f1;
+	display: block;
+	position: absolute;
+	padding-top: 300%;
+	padding-left: 350%;
+	margin-left: -20px !important;
+	margin-top: -120%;
+	opacity: 0;
+	transition: all 0.8s;
+}
+
+.button:active:after {
+	opacity: 0.01vw;
+	transition: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.button:hover {
+	color: #000;
+}

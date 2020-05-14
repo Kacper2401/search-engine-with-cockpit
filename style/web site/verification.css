@@ -1,0 +1,13 @@
+#test {
+	text-align: left;
+}
+
+main {
+	margin-top: 9em;
+	font-size: 1.4vw;
+	text-align: center;
+}
+
+#message {
+	font-size: 1.6vw;
+}

@@ -1,0 +1,27 @@
+main {
+    padding-top: 3em;
+    font-size: 1.3vw;
+	text-align: center;
+}
+
+main input {
+    width: 50%
+}
+
+#edit {
+	margin-top: 15%;
+}
+
+#additionalMaterialName {
+	display: inline-block;
+	float: left;
+	text-align: right;
+	width: 49%;
+}
+
+#additionalMaterialFile {
+	display: inline-block;
+	text-align: left;
+	float: right;
+	width: 49%;
+}

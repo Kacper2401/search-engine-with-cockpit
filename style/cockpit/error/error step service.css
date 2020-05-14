@@ -1,0 +1,13 @@
+main {
+    padding-top: 8em;
+    font-size: 1.3vw;
+	text-align: center;
+}
+
+button {
+	margin-right: 1vw;
+}
+
+form {
+	display: inline-block;
+}

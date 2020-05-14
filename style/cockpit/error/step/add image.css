@@ -1,0 +1,25 @@
+main {
+    padding-top: 8em;
+    font-size: 1.6vw;
+	text-align: center;
+}
+
+#add {
+	margin-top: 5%;
+}
+
+form {
+	display: inline-block;
+}
+
+button {
+	margin-left: -8vw;
+}
+
+input {
+	padding-left: 8vw;
+}
+
+.button {
+	padding-top: 0.5vw;
+}

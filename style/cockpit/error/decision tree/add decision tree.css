@@ -1,0 +1,27 @@
+main {
+    padding-top: 2.8em;
+    font-size: 1.2vw;
+	text-align: center;
+}
+
+#add {
+	margin-top: 10%;
+	margin-left: -2vw;
+}
+
+#DecisionTree {
+	text-align: center;
+	padding-left: 4vw;
+}
+
+form {
+	display: inline-block;
+}
+
+button {
+	margin-left: -8vw;
+}
+
+input {
+	padding-left: 4.5vw;
+}
